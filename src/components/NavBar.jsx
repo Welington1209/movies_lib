@@ -21,7 +21,7 @@ const NavBar = () => {
   return (
     <nav id="navbar">
       <h2>
-        <Link to="/">
+        <Link to="/movies_lib">
           <BiCameraMovie /> MoviesLib
         </Link>
       </h2>

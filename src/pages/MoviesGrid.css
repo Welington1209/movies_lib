@@ -1,0 +1,94 @@
+.Container {
+  display: flex;
+}
+
+.Container .title {
+  column-rule-color: #fff;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 2.5rem;
+}
+
+#title {
+  column-rule-color: #fff;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--color-first);
+}
+
+.title .query_text {
+  color: var(--color-first);
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  justify-content: space-between;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  margin-bottom: 100px;
+}
+
+.movies-container img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 30%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-second);
+  padding: 2rem;
+  box-shadow: 0 0 10px -2px var(--color-first);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.movies-container div:hover {
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.movies-container div img {
+  width: 100%;
+}
+
+.movies-container div img,
+.movies-container div p,
+.movies-container div h2 {
+  margin-bottom: 1rem;
+}
+
+.movies-container div h2 {
+  font-size: 1.2rem;
+}
+
+.movies-container svg {
+  color: var(--color-first);
+}
+
+.movies-container div a {
+  background-color: var(--color-first);
+  border: 2px solid var(--color-first);
+  border-radius: 4px;
+  color: #000;
+  padding: 1rem 0.5rem;
+  align-items: center;
+  transition: 0.4s;
+  text-align: center;
+  font-weight: bold;
+}
+
+.movies-container div a:hover {
+  background-color: transparent;
+  color: var(--color-first);
+}

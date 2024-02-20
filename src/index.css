@@ -1,0 +1,39 @@
+:root {
+  --color-first: #c83232;
+  --color-second:  #111;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-first);
+  transition: .5s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  border-radius: 15px;
+  background-color:var(--color-second);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-first);
+  border: 3px solid;
+  border-radius: 15px;}
+
+

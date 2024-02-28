@@ -4,7 +4,6 @@
   flex-direction: column;
   margin: 2rem auto;
   max-width: 600px;
-
 }
 
 .movie-page svg {
@@ -12,15 +11,13 @@
   color: var(--color-first);
 }
 
- 
-  .movie-page .movie-card {
-    text-align: center;
+.movie-page .movie-card {
+  text-align: center;
 }
 
 .movie-page .movie-card img {
   border-radius: 10px;
-  box-shadow: 0 0 20px 2px var(--color-first)
-  
+  box-shadow: 0 0 20px 2px var(--color-first);
 }
 
 .movie-page .movie-card img,
@@ -57,7 +54,6 @@
   align-items: center;
 }
 
-
 .description p {
   line-height: 1.4rem;
   border: 2px solid var(--color-first);
@@ -66,7 +62,7 @@
   margin-bottom: 1rem;
 }
 
-.backdrop{
+.backdrop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,3 +73,15 @@
   border-radius: 5px;
 }
 
+@media (max-width: 450px) {
+  .movie-page {
+    max-width: 90vw;
+  }
+
+  .movie-page .movie-card img {
+    max-width: 70vw;
+  }
+
+  .info {
+  }
+}

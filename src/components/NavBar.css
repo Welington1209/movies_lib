@@ -42,3 +42,24 @@
   color: var(--color-first);
 }
 
+
+@media (max-width: 450px) {
+#navbar {
+  max-width: 100%;
+}
+
+  #navbar h2 a {
+    font-size: 2rem;
+  }
+
+  h2 a span {
+    display: none;
+  }
+
+  #navbar input {
+    font-size: .8rem;
+  }
+
+ 
+}
+

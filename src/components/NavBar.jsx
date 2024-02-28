@@ -22,7 +22,7 @@ const NavBar = () => {
     <nav id="navbar">
       <h2>
         <Link to="/movies_lib">
-          <BiCameraMovie /> MoviesLib
+          <BiCameraMovie /> <span>MoviesLib</span>
         </Link>
       </h2>
 

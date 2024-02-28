@@ -1,5 +1,6 @@
 aside {
   width: 15%;
+  height: 15%;
   display: flex;
   align-items: flex-start;
   padding: 1rem;
@@ -7,6 +8,13 @@ aside {
   margin: 1rem;
   border-radius: 4px;
 }
+
+@media(max-width: 1225px) {
+  aside {
+    display: none;
+  }
+}
+
 
 ul {
   display: flex;

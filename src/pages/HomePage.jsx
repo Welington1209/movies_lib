@@ -26,9 +26,11 @@ const HomePage = () => {
 
   return (
     
-      <div className="Container">
+      <div className="Container home_page">
         <Aside />
+        <h2>Lançamentos</h2>
         <div className="movies-container">
+         
           {movies.length === 0 && <img src={Loader}></img>}
           {movies.map((movie) => (
             <NowPlayingCard key={Math.random()} movie={movie} />
